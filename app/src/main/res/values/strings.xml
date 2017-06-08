@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">MindSweeper</string>
+    <string name="score">0</string>
+    <string name="b1">1</string>
+    <string name="b2">2</string>
+    <string name="b3">3</string>
+    <string name="b4">4</string>
+    <string name="b5">5</string>
+    <string name="b6">6</string>
+    <string name="b7">7</string>
+    <string name="b8">8</string>
+    <string name="b9">9</string>
+    <string name="b10">10</string>
+    <string name="b11">11</string>
+    <string name="b12">12</string>
+    <string name="b13">13</string>
+    <string name="b14">14</string>
+    <string name="b15">15</string>
+    <string name="b16">16</string>
+    <string name="b17">17</string>
+    <string name="b18">18</string>
+    <string name="b19">19</string>
+    <string name="b20">20</string>
+    <string name="tutorial">tutorial</string>
+    <string name="game">game</string>
+    <string name="level">0</string>
+    <string name="points">0</string>
+    <string name="ai">ai</string>
+    <string name="hi_score">HI SCORE</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="end">Continue?</string>
+    <string name="record">0</string>
+    <string name="saved_high_score"></string>
+    <string name="newhighscore"></string>
+
+</resources>

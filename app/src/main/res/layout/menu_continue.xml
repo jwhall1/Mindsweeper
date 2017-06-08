@@ -1,0 +1,66 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/relativeLayout"
+    tools:context=".Continue"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_span="4"
+        android:background="@color/white"
+        android:gravity="end"
+        android:textColor="@color/black"
+        android:text="@string/score"
+        android:textSize="70sp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/hi_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/hi_score"
+        android:layout_below="@+id/textview1"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/yes"
+        android:layout_alignStart="@+id/yes"
+        android:contentDescription="@string/no"/>
+
+    <Button
+        android:id="@+id/yes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/yes"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/yes"/>
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_span="4"
+        android:background="@color/black"
+        android:gravity="end"
+        android:textColor="@color/white"
+        android:text="@string/end"
+        android:textSize="50sp"
+        android:layout_above="@+id/yes"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp">
+    </TextView>
+
+
+</RelativeLayout>

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:stretchColumns="0, 1, 2, 3"
+    android:background="@color/black"
+    android:id="@+id/table"
+    tools:context="com.example.jaydu.mindsweeper.MainActivity">
+
+    <TableRow
+        android:id="@+id/tablerow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="4"
+            android:background="@color/black"
+            android:gravity="end"
+            android:textColor="@color/white"
+            android:text="@string/score"
+            android:textSize="70sp">
+        </TextView>
+
+    </TableRow>
+
+
+    <TableRow
+        android:id="@+id/tablerow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/b1"
+            android:background="@color/black"
+            android:minHeight="70dip"
+            android:minWidth="70dp">
+        </Button>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/b2"
+            android:background="@color/black"
+            android:minHeight="70dip"
+            android:minWidth="70dp">
+        </Button>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/b3"
+            android:background="@color/black"
+            android:minHeight="70dip"
+            android:minWidth="70dp">
+        </Button>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/b4"
+            android:background="@color/black"
+            android:minHeight="70dip"
+            android:minWidth="70dp">
+        </Button>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tablerow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/b5"
+            android:background="@color/black"
+            android:minHeight="70dip"
+            android:minWidth="70dp">
+        </Button>
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/b6"
+            android:background="@color/black"
+            android:minHeight="70dip"
+            android:minWidth="70dp">
+        </Button>
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/b7"
+            android:background="@color/black"
+            android:minHeight="70dip"
+            android:minWidth="70dp">
+        </Button>
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/b8"
+            android:background="@color/black"
+            android:minHeight="70dip"
+            android:minWidth="70dp">
+        </Button>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tablerow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/b9"
+            android:background="@color/black"
+            android:minHeight="70dip"
+            android:minWidth="70dp">
+        </Button>
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/b10"
+            android:background="@color/black"
+            android:minHeight="70dip"
+            android:minWidth="70dp">
+        </Button>
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/b11"
+            android:background="@color/black"
+            android:minHeight="70dip"
+            android:minWidth="70dp">
+        </Button>
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/b12"
+            android:background="@color/black"
+            android:minHeight="70dip"
+            android:minWidth="70dp">
+        </Button>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tablerow5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/b13"
+            android:background="@color/black"
+            android:minHeight="70dip"
+            android:minWidth="70dp">
+        </Button>
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/b14"
+            android:background="@color/black"
+            android:minHeight="70dip"
+            android:minWidth="70dp">
+        </Button>
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/b15"
+            android:background="@color/black"
+            android:minHeight="70dip"
+            android:minWidth="70dp">
+        </Button>
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/b16"
+            android:background="@color/black"
+            android:minHeight="70dip"
+            android:minWidth="70dp">
+        </Button>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tablerow6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/b17"
+            android:background="@color/black"
+            android:minHeight="70dip"
+            android:minWidth="70dp">
+        </Button>
+
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/b18"
+            android:background="@color/black"
+            android:minHeight="70dip"
+            android:minWidth="70dp">
+        </Button>
+
+        <Button
+            android:id="@+id/button19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/b19"
+            android:background="@color/black"
+            android:minHeight="70dip"
+            android:minWidth="70dp">
+        </Button>
+
+        <Button
+            android:id="@+id/button20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/b20"
+            android:background="@color/black"
+            android:minHeight="70dip"
+            android:minWidth="70dp">
+        </Button>
+
+    </TableRow>
+
+
+</TableLayout>
