@@ -1,7 +1,6 @@
 /**
  *	TODO:	
  *			use drawables instead of buttons.
- *			had threading issues redrawing on the mainUI.
  *			fix high score issues.
  */
 
